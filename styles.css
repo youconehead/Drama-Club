@@ -1,8 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     background-color: black;
     color: white;
-    font-family: "Cantarell", sans-serif;
+    font-family: "Urbanist";
+    font-size: larger;
+    background-image: url(theater.png);
+    background-position: center;
+    background-size: 3000px;
+    background-repeat: no-repeat;
 }
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -13,4 +18,8 @@ h1 {
   text-align: center;
   font-family: "Tangerine", cursive;
   font-size: 100px;
+}
+.space{
+  margin: 10px;
+  padding: 5px;
 }
