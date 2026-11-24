@@ -6,7 +6,7 @@ body{
     font-size: larger;
     background-image: url(theater.png);
     background-position: center;
-    background-size: 3000px;
+    background-size: 160%;
     background-repeat: no-repeat;
 }
 @keyframes fadeIn {
